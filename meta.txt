@@ -1,0 +1,6 @@
+; Define valid currencies/commodities.
+; Ex: commodity $
+
+; Define list of valid accounts.
+; Ex: account Equity:OpeningBalances
+; Ex: account Expenses:Unknown

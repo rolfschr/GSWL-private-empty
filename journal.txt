@@ -1,0 +1,5 @@
+; The actual journal. The first transaction should be the opening balance.
+; Ex:
+;2041/12/31 * Opening Balance
+;   Assets:BankName:AccountName                 $1000.00
+;   Equity:OpeningBalances

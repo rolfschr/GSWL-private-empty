@@ -1,0 +1,12 @@
+# Each section's name represents the corresponding account. However, colons
+# (":") are replaced by three underscores ("___") to keep the yaml syntax more
+# readable.
+#
+Assets___BankName___AccountName:
+    convert_header:
+    ignored_header_lines:
+    date_format:
+    currency:
+    ledger_args:
+    ignore_transactions:
+    modify_transactions:

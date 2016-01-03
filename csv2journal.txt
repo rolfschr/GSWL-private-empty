@@ -1,0 +1,5 @@
+; Include meta.txt to have access to predefined accounts etc.
+include meta.txt
+
+; Define automated transactions when converting CSV files:
+

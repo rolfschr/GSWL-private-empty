@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This is where CSV files are stored.
+CSV_DIR=./CSV
+
+alias lmbanknameaccountname="csvConvert Assets:BankName:AccountName ${CSV_DIR}/${LAST_MONTHYEAR}_banknameaccountname.csv"
