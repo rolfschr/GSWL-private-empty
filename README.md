@@ -24,7 +24,7 @@ Then:
 - Define your bank accounts in ``bankaccounts.yml`` & CSV conversion aliases in ``alias.local``.
 - Define your opening balance (current financial state) in ``journal.txt``.
 - Setup your own report commands in ``reports.txt``
-- Define your Tmux (or whatever) sessions.
+- Define your Tmux (or whatever) session.
 
 Optionally:
 
