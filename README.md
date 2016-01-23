@@ -10,12 +10,12 @@ First steps to get started with your own setup:
 ```bash
 $ mkdir -p ~/src && cd ~/src
 $ git clone https://github.com/rolfschr/GSWL-ecosystem.git
-$ git clone git@github.com:rolfschr/GSWL-private-empty.git
+$ git clone https://github.com/rolfschr/GSWL-private-empty.git
 $ MYDIR=personalfinance
 $ mv GSWL-private-empty $MYDIR
 $ cd $MYDIR
 $ mkdir CSV && mkdir tmp # for CSV conversions
-$ rm ./README.md rm ./LICENSE # optional ;)
+$ rm ./README.md && rm ./LICENSE # optional ;)
 $ rm -rf .git && git init # start your own Git repo
 ```
 Then:
@@ -24,10 +24,10 @@ Then:
 - Define your bank accounts in ``bankaccounts.yml`` & CSV conversion aliases in ``alias.local``.
 - Define your opening balance (current financial state) in ``journal.txt``.
 - Setup your own report commands in ``reports.txt``
-- Define your Tmux (or whatever) session.
+- Define your Tmux (or whatever) session (see [example](https://github.com/rolfschr/GSWL-private/blob/master/.tmuxinator.GSWL-private.yml)).
 
 Optionally:
 
 - Setup some aliases in your ``.bashrc``. See [here](https://github.com/rolfschr/GSWL-private/blob/master/.bashrc) for some ideas.
-- Encrypt your personal folder (_not_ optional!).
+- Encrypt your personal folder (actually _not_ optional!).
 - Define conversion rates in ``prices.txt`` if you use multiple currencies.
