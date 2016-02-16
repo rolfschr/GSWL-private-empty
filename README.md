@@ -11,7 +11,7 @@ First steps to get started with your own setup:
 $ mkdir -p ~/src && cd ~/src
 $ git clone https://github.com/rolfschr/GSWL-ecosystem.git
 $ git clone https://github.com/rolfschr/GSWL-private-empty.git
-$ MYDIR=personalfinance
+$ MYDIR=personalfinance # unexisting dirname
 $ mv GSWL-private-empty $MYDIR
 $ cd $MYDIR
 $ mkdir CSV && mkdir tmp # for CSV conversions
