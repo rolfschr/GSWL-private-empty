@@ -1,6 +1,10 @@
-; Define valid currencies/commodities.
-; Ex: commodity $
+; Define valid currencies/commodities, for example:
+; commodity $
 
-; Define list of valid accounts.
-; Ex: account Equity:OpeningBalances
-; Ex: account Expenses:Unknown
+; Define list of valid accounts, for example:
+; account Equity:Opening Balance
+; account Assets:BankName:AccountName
+; account Expenses:Unknown
+
+; Define list of valid payees, for example:
+; payee Opening Balance
